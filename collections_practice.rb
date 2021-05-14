@@ -21,7 +21,7 @@ end
 
 def reverse_array(array)
   array.reverse
-end 
+end
 
 def kesha_maker(array)
   array.each do |string|
@@ -33,22 +33,21 @@ def find_a(array)
   array.find_all do |word|
     word[0] == "a"
   end
-end 
+end
 
 def sum_array(array)
   sum = 0
   array.each do |num|
     sum += num
-  end 
+  end
   sum
 
 def add_s(array)
   array.collect do |word|
     if array[1] == word
       word
-    else 
+    else
       word + "s"
     end
   end 
-end 
-
+end
