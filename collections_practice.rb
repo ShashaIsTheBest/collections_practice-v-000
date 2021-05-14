@@ -24,8 +24,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |string|
-    string[2] = $"
+  array.each do |element|
+    element[2] = $"
   end
 end
 
@@ -41,7 +41,7 @@ def sum_array(array)
     sum += num
   end
   sum
-end 
+end
 
 def add_s(array)
   array.collect do |word|
